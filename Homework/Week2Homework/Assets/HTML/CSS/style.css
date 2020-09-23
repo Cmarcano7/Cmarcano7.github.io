@@ -1,17 +1,22 @@
 body{
     background-color: #E7DECD;
     font-family: 'Noto Serif', sans-serif;
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
 }
 
 header{
     color: #E7DECD;
     background-color: #222E50;
-    
 }
 
 main{
     color: #222E50;
-    margin: 20px 10px 30px 10px;
+    margin: 20px 10px 10px 10px;
+    min-height: 400px;
+    margin-bottom: 300px;
+    clear: both;
 }
 
 footer {
@@ -35,6 +40,12 @@ footer {
     margin: auto;
 }
 
+.about-img{
+    height: 70%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .form{
     background-color: #E5625E;
@@ -42,11 +53,6 @@ footer {
     border-radius: 25px;
     padding: 15px;
     margin: 5px;
-}
-
-.about-img{
-    height: 50%;
-    width: 50%;
 }
 
 #button{
