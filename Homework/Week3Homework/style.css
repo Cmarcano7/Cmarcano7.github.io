@@ -1,0 +1,217 @@
+/* CSS for entire sheet */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: 100%;
+  background-color: #222629;
+}
+
+ html,
+.wrapper {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+} 
+
+
+ .wrapper {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+} 
+
+
+/* Styling for the header below */
+header {
+  text-align: center;
+  padding: 20px;
+  padding-top: 0px;
+  color: #86C232;
+  text-shadow: white;
+}
+
+/* Styling for the div holding all the inputs below */
+.selectors {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background: url("Images/pexels-markus-spiske-193349.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 2px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #222629;
+}
+
+.questions {
+  height: 400px;
+  width: min(90%, 350px);
+  background-color: #222629;
+  color: #fff;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.lengthField label {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #86C232;
+}
+
+.lengthField input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin: 5px 0 40px;
+}
+
+.lengthField input:focus {
+  outline: none;
+}
+
+/* Seperate Styling for checkboxes input */
+.center {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.center .label {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #86C232;
+}
+
+.center .val {
+  position: absolute;
+  cursor: pointer;
+  right: 0;
+}
+
+/* Styling for div holding password generator */
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  border-width: 1px;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+  color: hsl(206, 17%, 28%);
+  font-size: 18px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 800px;
+  padding: 30px 40px;
+  text-align: center;
+}
+
+.card-header::after {
+  content: " ";
+  display: block;
+  width: 100%;
+  background: #e7e9eb;
+  height: 2px;
+}
+
+.card-body {
+  min-height: 100px;
+}
+
+.card-footer {
+  text-align: center;
+}
+
+.card-footer::before {
+  content: " ";
+  display: block;
+  width: 100%;
+  background: #e7e9eb;
+  height: 2px;
+}
+
+.card-footer::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* Seperate Stylinig for the input button */
+.btn {
+  border: none;
+  background-color:#86C232;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
+    0px;
+  color: hsl(0, 0%, 100%);
+  display: inline-block;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 16px 16px 16px 20px;
+  padding: 14px 34px;
+  text-align: center;
+  cursor: pointer;
+}
+
+button[disabled] {
+  cursor: default;
+  background: #c0c7cf;
+}
+
+.float-right {
+  float: right;
+}
+
+#password {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  display: block;
+  width: 100%;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 85px;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px dashed #c0c7cf;
+  border-radius: 6px;
+  resize: none;
+  overflow: hidden;
+}
+
+/* Seperate styling for the different viewport sizes */
+@media (max-width: 690px) {
+  .btn {
+    font-size: 1rem;
+    margin: 16px 0px 0px 0px;
+    padding: 10px 15px;
+  }
+
+  #password {
+    font-size: 1rem;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .btn {
+    font-size: 0.8rem;
+  }
+}
+
