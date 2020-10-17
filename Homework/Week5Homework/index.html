@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <!-- Title of Page -->
+    <title>Work Day Scheduler</title>
+    
+    <!-- Link to bootStrap used for styling -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    
+    <!-- Link to Font Awesome icons used -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+   
+    <!-- Link to Google Fonts used -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    
+    <!-- User Created Styling -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Added link to the jQuery library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    
+    <!-- Header of page created using bootStrap -->
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+      <p id="currentTime" class="lead"></p>
+    </header>
+    
+    <!-- Container of the work schedule -->
+    <div class="container schedule">
+      
+      <!-- Timeblocks below -->
+      <div id="row1" class="row">
+        <div id="7" class="time-block col-2 hour">7 am</div>
+        <textarea id="text1" class="col-8"></textarea>
+        <button id="save1" class="saveBtn col-1"><i class="far fa-save"></i></button>
+        <button id="clear1" class="clearBtn col-1"><i class="fas fa-eraser"></i></button>
+      </div>
+      <div id="row2" class="row">
+        <div id="8" class="time-block col-2">8 am</div>
+        <textarea id="text2" class="col-8"></textarea>
+        <button id="save2" class="saveBtn col-1"><i class="far fa-save"></i></button>
+        <button id="clear2" class="clearBtn col-1"><i class="fas fa-eraser"></i></button>
+      </div>
+      <div id="row3" class="row">
+        <div id="9" class="time-block col-2">9 am</div>
+        <textarea id="text3" class="col-8"></textarea>
+        <button id="save3" class="saveBtn col-1"><i class="far fa-save"></i></button>
+        <button id="clear3" class="clearBtn col-1"><i class="fas fa-eraser"></i></button>
+      </div>
+      <div id="row4" class="row">
+        <div id="10" class="time-block col-2">10 am</div>
+        <textarea id="11" class="col-8"></textarea>
+        <button id="save4" class="saveBtn col-1"><i class="far fa-save"></i></button>
+        <button id="clear4" class="clearBtn col-1"><i class="fas fa-eraser"></i></button>
+      </div>
+      <div id="row5" class="row">
+        <div id="11" class="time-block col-2">11 am</div>
+        <textarea id="text5" class="col-8"></textarea>
+        <button id="save5" class="saveBtn col-1"><i class="far fa-save"></i></button>
+        <button id="clear5" class="clearBtn col-1"><i class="fas fa-eraser"></i></button>
+      </div>
+      <div id="row6" class="row">
+        <div id="12" class="time-block col-2">12 pm</div>
+        <textarea id="text6" class="col-8"></textarea>
+        <button id="save6" class="saveBtn col-1"><i class="far fa-save"></i></button>
+        <button id="clear6" class="clearBtn col-1"><i class="fas fa-eraser"></i></button>
+      </div>
+      <div id="row7" class="row">
+        <div id="13" class="time-block col-2">1 pm</div>
+        <textarea id="text7" class="col-8"></textarea>
+        <button id="save7" class="saveBtn col-1"><i class="far fa-save"></i></button>
+        <button id="clear7" class="clearBtn col-1"><i class="fas fa-eraser"></i></button>
+      </div>
+      <div id="row8" class="row">
+        <div id="14" class="time-block col-2">2 pm</div>
+        <textarea id="text8" class="col-8"></textarea>
+        <button id="save8" class="saveBtn col-1"><i class="far fa-save"></i></button>
+        <button id="clear8" class="clearBtn col-1"><i class="fas fa-eraser"></i></button>
+      </div>
+      <div id="row9" class="row">
+        <div id="15" class="time-block col-2">3 pm</div>
+        <textarea id="text9" class="col-8"></textarea>
+        <button id="save9" class="saveBtn col-1"><i class="far fa-save"></i></button>
+        <button id="clear9" class="clearBtn col-1"><i class="fas fa-eraser"></i></button>
+      </div>
+      <div id="row10" class="row">
+        <div id="16" class="time-block col-2">4 pm</div>
+        <textarea id="text10" class="col-8"></textarea>
+        <button id="save10" class="saveBtn col-1"><i class="far fa-save"></i></button>
+        <button id="clear10" class="clearBtn col-1"><i class="fas fa-eraser"></i></button>
+      </div>
+    </div>
+
+    <!-- Moment.js -->
+    <script src="Assets/moment.js"></script>
+
+    <!-- Bootstrap Javascript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+    <!-- User created Javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
