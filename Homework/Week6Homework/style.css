@@ -1,0 +1,86 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+#currentDay{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.schedule{
+  margin-bottom: 20px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.time-block{
+  text-align: center;
+  border: solid black;
+  border-left: none;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding-top: 10px;
+}
+
+textarea{
+  background: transparent;
+  border: solid black;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.past {
+  background-color: #d3d3d3;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  background-color: #06AED5;
+  color: white;
+}
+
+.clearBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 40px;
+  transition: all .3s ease-in-out;
+}
+
+.clearBtn i:hover {
+  font-size: 40px;
+  transition: all .3s ease-in-out
+}
+
+
