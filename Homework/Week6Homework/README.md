@@ -1,13 +1,13 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/Cmarcano7/Work-Day-Scheduler">
+  <a href="https://github.com/Cmarcano7/Weather-Dashboard">
   </a>
 
-  <h3 align="center">Work Day Scheduler</h3>
+  <h3 align="center">Weather Dashboard</h3>
 
   <p align="center">
-    A planner for someone who works 7am to 4pm built with Javascript, Html, CSS, and some of their libraries. Users can save their inputs with the save button and also clear the textarea with the clear button(will only clear whats their and not the localStorage). It also updates the background color depending on whether the row is in the past, present or future. 
+    A Weather dashboard build for someone who is looking to travel. The dashboard was built using JQuery, HTML, CSS, Ajax and some libraries. Users can look up a city and be presented with the current weather as well as a 5 day forecast. 
   </p>
 </p>
 
@@ -28,7 +28,8 @@
 * [JQuery]
 * [HTML]
 * [CSS]
-* [Moment.Js]
+* [openweatherapp]
+* [moment.js]
 
 <!-- links to the libraries used -->
 # References
@@ -36,11 +37,10 @@
 [https://getbootstrap.com/](https://getbootstrap.com/) - Bootstrap library <br>
 [https://jquery.com/](https://jquery.com/) - jQuery library <br>
 [https://momentjs.com/](https://momentjs.com/) - Moment.js library <br>
-[https://fontawesome.com/](https://fontawesome.com/) - Free Icons! <br>
 
 <!-- CONTACT -->
 ## Contact
 
 email - tino93pr@hotmail.com
 
-Project Link: [https://github.com/Cmarcano7/Work-Day-Scheduler](https://github.com/Cmarcano7/Work-Day-Scheduler)
+Project Link: [https://github.com/Cmarcano7/Weather-Dashboard](https://github.com/Cmarcano7/Weather-Dashboard)

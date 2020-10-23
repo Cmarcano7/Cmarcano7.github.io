@@ -1,86 +1,52 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 1;
-}
-
 .jumbotron {
-  text-align: center;
-  background-color: transparent;
-  color: black;
-  border-radius: 0;
-  border-bottom: 10px solid black;
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
 }
 
-#currentDay{
-  font-size: 20px;
-  font-weight: bold;
+#currentDay #currentTime { 
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.schedule{
-  margin-bottom: 20px;
+.weather {
+    margin-left: 20px;
 }
 
-.row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
+.invis {
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
 }
 
-.time-block{
-  text-align: center;
-  border: solid black;
-  border-left: none;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  padding-top: 10px;
+#weatherCars{
+    margin-bottom: 10px;
 }
-
-textarea{
-  background: transparent;
-  border: solid black;
-  resize: none;
-  color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
+.citiesButton {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
 }
-
-.past {
-  background-color: #d3d3d3;
+#todayIcon {
+    background-color: aqua;
 }
-
-.present {
-  background-color: #ff6961;
-  color: white;
+#jumboHead {
+    background-color: aqua;
 }
-
-.future {
-  background-color: #77dd77;
-  color: white;
+.color {
+    background-color: #FD795B;
 }
-
-.saveBtn {
-  border-left: 1px solid black;
-  background-color: #06AED5;
-  color: white;
+.severe {
+    background-color: red;
 }
-
-.clearBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
+.favorable {
+    background-color: green;
 }
-
-.saveBtn i:hover {
-  font-size: 40px;
-  transition: all .3s ease-in-out;
+.moderate {
+    background-color: yellow;
 }
-
-.clearBtn i:hover {
-  font-size: 40px;
-  transition: all .3s ease-in-out
-}
-
-
