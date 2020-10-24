@@ -18,7 +18,7 @@
   * [Built With](#built-with)
 * [Usage](#usage)
 * [References](#references)
-
+* [For Cloud Animation See](#for-cloud-animation-see)
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -30,6 +30,7 @@
 * [CSS]
 * [openweatherapp]
 * [moment.js]
+* [https://codepen.io/valentin/pen/fkdCG]
 
 <!-- links to the libraries used -->
 # References
@@ -38,6 +39,9 @@
 [https://jquery.com/](https://jquery.com/) - jQuery library <br>
 [https://momentjs.com/](https://momentjs.com/) - Moment.js library <br>
 
+# For Cloud Animation See
+
+[https://codepen.io/valentin/pen/fkdCG](https://codepen.io/valentin/pen/fkdCG) - Cloud Animation <br>
 <!-- CONTACT -->
 ## Contact
 

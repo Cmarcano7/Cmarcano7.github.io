@@ -41,21 +41,23 @@
 <body class="color">
     
     <header class="jumbotron" id = "jumboHead">
-        <h1 class="display-3">Welcome to the Weather Dashboard</h1>
-        <p class="lead">Simple weather app to help you plan for your future travel plans</p>
-        <p id="currentDay" class="lead"></p>
-        <p id="currentTime" class="lead"></p>
-        <!-- User input for city search -->
-        <!-- Use id with JS to save user inputs -->
-        <div class="input-group mb-3">
-            <input type="text" id="userInput" class="form-control" placeholder="Search for your city" aria-label="City Searched" aria-describedby="button-addon2">
-            <div class="input-group-append">
-                <button class="btn btn-primary" type="button" id="button-addon2"><i class="fas fa-search-location"></i></button>
+        <div id="clouds">
+            <h1 class="display-3">Welcome to the Weather Dashboard</h1>
+            <p class="lead">Simple weather app to help you plan for your future travel plans</p>
+            <p id="currentDay" class="lead"></p>
+            <p id="currentTime" class="lead"></p>
+            <!-- User input for city search -->
+            <!-- Use id with JS to save user inputs -->
+            <div class="input-group mb-3">
+                <input type="text" id="userInput" class="form-control" placeholder="Search for your city" aria-label="City Searched" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="button" id="button-addon2"><i class="fas fa-search-location"></i></button>
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <div id="pastCities" class="row">
-                
+            <div class="container">
+                <div id="pastCities" class="row">
+                    
+                </div>
             </div>
         </div>
     </header>
