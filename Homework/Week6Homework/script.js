@@ -97,6 +97,7 @@ function getWeatherData(cityname) {
             //Setting our UV Index for the Today's Weather(currently need lat and lon to get UV, not just city)
             var uvIndex = response.current.uvi
             var uvIndexText = "UV Index: " + response.current.uvi;
+            $("#uvIndex").empty()
             $("#uvIndex").append(uvIndexText);
             if(parseInt(uvIndex) < 2) {
                 $("#uvIndex").removeClass()
@@ -122,7 +123,7 @@ function getWeatherData(cityname) {
                 var date = response.daily[i].dt;
                 
                 //Creating divs to place for 5-day forecast
-                var div = $("<div class='card text-white bg-primary mb-3' style='max-width: 18rem;'>")
+                var div = $("<div class='card text-white dayCards bg-primary mb-3' style='max-width: 18rem;'>")
                 var headDate = $("<div class='card-header'>").text(timeConverter(date));
                 var divBody = $("<div class='card-body'>");
                 var titleTemp = $("<h5 class='card-title'>").text("Temp: " + response.daily[i].temp.day);

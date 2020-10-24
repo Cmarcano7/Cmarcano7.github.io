@@ -1,9 +1,44 @@
+* {
+    font-family: 'Arvo', serif;
+}
 .jumbotron {
     text-align: center;
     background-color: transparent;
     color: black;
     border-radius: 0;
     border-bottom: 10px solid black;
+}
+
+#jumboHead {
+    background-color: aqua;
+}
+#userInput {
+    text-transform: capitalize;
+}
+.citiesButton {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 3px;
+    vertical-align: middle;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.citiesButton:hover,
+.citiesButton:focus,
+.citiesButton:active {
+    transform: scale(1.1);
+}
+
+#todayIcon {
+    background-color: aqua;
 }
 
 #currentDay #currentTime { 
@@ -21,23 +56,14 @@
     left: -9999px !important;
 }
 
-#weatherCars{
+#weatherCards{
     margin-bottom: 10px;
 }
-.citiesButton {
-    border: none;
-    background-color: inherit;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    display: inline-block;
+
+.dayCards {
+    margin: 3px;
 }
-#todayIcon {
-    background-color: aqua;
-}
-#jumboHead {
-    background-color: aqua;
-}
+
 .color {
     background-color: #FD795B;
 }
@@ -50,3 +76,4 @@
 .moderate {
     background-color: yellow;
 }
+
