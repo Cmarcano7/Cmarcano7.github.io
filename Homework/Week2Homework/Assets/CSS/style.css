@@ -1,57 +1,80 @@
-body{
-    background-color: #E7DECD;
-    font-family: 'Noto Serif', sans-serif;
-}
+html { height: 100%; }
 
-header{
-    color: #E7DECD;
-    background-color: #222E50;
+body{
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
 }
 
 main{
-    color: #222E50;
-    margin: 20px 10px 10px 10px;
+    overflow: auto;
+    padding-bottom: 50px;
 }
 
-footer {
+.cards {
+    background: rgba(71, 71, 71, 0.6);
+    border-radius: 5px;
+    color: #16a596;
+}
+
+.btn{
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    padding-left: 0px;
+}
+
+.footer {
     position: fixed;
-    left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #222E50;
+    height: 2.5rem;
+}
+
+.intro {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    color: #16a596;
+}
+
+ .jumbotron{
+    background: url(../Images/chris-ried-ieic5Tq8YMk-unsplash.jpg) no-repeat center fixed;
+    background-attachment: fixed;
+ }
+ .hide{
+     display: none;
+ }
+.center{
+    margin: 0 auto;
     text-align: center;
 }
-
-.float-left{
-    float: left;
+.list{
+    margin: 0 auto;
+    text-align: center;
 }
-
-.float-right{
-    float: right;
+ul {
+    list-style-type: none;
 }
-
-.center{
-    margin: auto;
+#titleHolder{
+    margin-top: 15px;
+    margin-bottom: 50px;
 }
-
-.about-img{
-    height: 70%;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+#titleHolder h3{
+    margin: 0 auto;
 }
-
-.form{
-    background-color: #E5625E;
-    font-family: 'Noto Serif', sans-serif;
-    border-radius: 25px;
-    padding: 15px;
-    margin: 5px;
+.gray{
+    background-color: rgb(71, 71, 71);
+    color: #16a596;
 }
-
-#button{
-    margin-left: auto;
-    margin-right: auto;
-
+#submit{
+    margin-top: 20px;
+    text-align: center;
 }
-
+.btn {
+    border: none; 
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: RoyalBlue;
+}
