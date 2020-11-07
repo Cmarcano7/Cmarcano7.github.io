@@ -3,6 +3,7 @@ $("#currentDay").text("Today is: " + moment().format("dddd, MMMM Do"));
 $("#currentTime").text("Time: " + moment().format("h:mm:ss a"));
 
 
+
 $("#button-addon2").click(function(event){
     //preventing the on click default
     event.preventDefault();
@@ -30,7 +31,7 @@ function getWeatherData(cityname) {
     //Function building our initial URL
     function buildQueryURL() {
         var userCity = cityname;
-        var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + userCity + "&units=imperial&appid=abfea0d65bd360c07d899ae93cc7ab26";
+        var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + userCity + "&units=imperial&appid=abfea0d65bd360c07d899ae93cc7ab26";
         return queryURL;
     };
     var queryURL = buildQueryURL();
@@ -69,17 +70,17 @@ function getWeatherData(cityname) {
         var iconResponse = response.weather[0].main
         $("#todayIcon").removeClass("invis")
         if(iconResponse == "Clear"){
-            $("#todayIcon").attr("src", "http://openweathermap.org/img/wn/01d.png")
+            $("#todayIcon").attr("src", "https://openweathermap.org/img/wn/01d.png")
         } else if(iconResponse == "Clouds"){
-            $("#todayIcon").attr("src", "http://openweathermap.org/img/wn/02d.png")
+            $("#todayIcon").attr("src", "https://openweathermap.org/img/wn/02d.png")
         } else if(iconResponse == "Rain"){
-            $("#todayIcon").attr("src", "http://openweathermap.org/img/wn/10d.png")
+            $("#todayIcon").attr("src", "https://openweathermap.org/img/wn/10d.png")
         } else if(iconResponse == "Thunderstorm"){
-            $("#todayIcon").attr("src", "http://openweathermap.org/img/wn/11d.png")
+            $("#todayIcon").attr("src", "https://openweathermap.org/img/wn/11d.png")
         } else if(iconResponse == "Snow"){
-            $("#todayIcon").attr("src", "http://openweathermap.org/img/wn/13d.png")
+            $("#todayIcon").attr("src", "https://openweathermap.org/img/wn/13d.png")
         } else if(iconResponse == "Mist") {
-            $("#todayIcon").attr("src", "http://openweathermap.org/img/wn/50d.png")
+            $("#todayIcon").attr("src", "https://openweathermap.org/img/wn/50d.png")
         } else {
             $("#todayIcon").addClass("invis")
         }
@@ -132,22 +133,22 @@ function getWeatherData(cityname) {
 
                 //Function creating the icons for the forecast
                 if (weather === "Rain") {
-                    var icon = $('<img>').attr("src", "http://openweathermap.org/img/wn/09d.png");
+                    var icon = $('<img>').attr("src", "https://openweathermap.org/img/wn/09d.png");
                     icon.attr("style", "height: 40px; width: 40px");
                 } else if (weather === "Clouds") {
-                    var icon = $('<img>').attr("src", "http://openweathermap.org/img/wn/03d.png");
+                    var icon = $('<img>').attr("src", "https://openweathermap.org/img/wn/03d.png");
                     icon.attr("style", "height: 40px; width: 40px");
                 } 
                  else if (weather === "Clear") {
-                    var icon = $('<img>').attr("src", "http://openweathermap.org/img/wn/01d.png");
+                    var icon = $('<img>').attr("src", "https://openweathermap.org/img/wn/01d.png");
                     icon.attr("style", "height: 40px; width: 40px");
                 }
                  else if (weather === "Drizzle") {
-                    var icon = $('<img>').attr("src", "http://openweathermap.org/img/wn/10d.png");
+                    var icon = $('<img>').attr("src", "s://openweathermap.org/img/wn/10d.png");
                     icon.attr("style", "height: 40px; width: 40px");
                 }
                  else if (weather === "Snow") {
-                    var icon = $('<img>').attr("src", "http://openweathermap.org/img/wn/13d.png");
+                    var icon = $('<img>').attr("src", "https://openweathermap.org/img/wn/13d.png");
                     icon.attr("style", "height: 40px; width: 40px");
                 }
 
