@@ -3,6 +3,7 @@ $("#currentDay").text("Today is: " + moment().format("dddd, MMMM Do"));
 $("#currentTime").text("Time: " + moment().format("h:mm:ss a"));
 
 
+
 $("#button-addon2").click(function(event){
     //preventing the on click default
     event.preventDefault();
