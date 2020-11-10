@@ -3,7 +3,7 @@
 This is weather dashboard that can provide the user with weather data depending on the inputed city. The data provided will give the user current weather as well as a 5 day forecast.
 
 <p align="center">
-  <img src="Assets/Images/weathPreview?raw=true" alt="Size Limit CLI" width="738">
+  <img src="Assets/Images/weathPreview" alt="Size Limit CLI" width="738">
 </p>
 
 # Technologies used
