@@ -1,41 +1,38 @@
-# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
+# Portfolio Page
 
-This homework was based on making a application with a responsive design that would ensure that it would render well on a variety of devices and window or screen sizes.
+This is my portfolio page made with. This previews some of my projects as well as being my homepage.
 
-## Directions
+<p align="center">
+  <img src="Assets/Images/homepageScreenshot" alt="Size Limit CLI" width="738">
+</p>
 
-I will use the Bootstrap CSS Framework to create a mobile responsive portfolio. How did I deliver this? First here are some guidelines:
+# Technologies used
 
-* Create the following files files: `index.html`, `portfolio.html` and `contact.html`.
+* **HTML5** 
+* **CSS**
+* **Bootstrap** 
+* **Javascript** 
+* **jQuery** 
+* **Ajax** 
 
-* Using Bootstrap, develop your portfolio site with the following items:
+## Contact Me
 
-   * A navbar
+* [Github](https://github.com/cmarcano7)
+* [linkedIn](https://www.linkedin.com/in/cmarcano7/)
+* [Link](https://cmarcano7.github.io/Homework/Week2Homework/Assets/HTML/)
 
-   * A responsive layout
 
-   * Responsive images
+## How It Works
 
-* The Bootstrap portfolio should minimize the use of media queries.
+1. Navbar up top can be used, by clicking the icon, to view different pages on the web application(Multiple html files were notused instead Javascript was used alongside CSS)
+2. Links to social can be found on the footer with their respective icons.
+3. Links to Projects can be found on the portfolio page under each project div.
 
-* Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout.
+## Tech Docs
 
-### Site
-
-* GitHub repository with README describing the project
-
-* Used Bootstrap's grid system (containers, rows, and columns).
-
-* On an `xs` screen, content takes up the entire screen. On `sm` and larger screens, there are margins on the left and right sides of the screen.
-
-* Functional, deployed application
-
-* A Navbar and Footer that is consistent on every page
-
-* Navbar also includes links to the other parts of the web application.(Home, Portfolio and Contact)
-
-* Footer also includes links to my own linkedin and Github
-
-* Semantic html used
-
-* Sticky Footer used
+* [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
+* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [jQuery](https://api.jquery.com/)
+* [Ajax](https://api.jquery.com/category/ajax/)
