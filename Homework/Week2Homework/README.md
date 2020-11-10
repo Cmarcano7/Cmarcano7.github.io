@@ -3,7 +3,7 @@
 This is my portfolio page made with. This previews some of my projects as well as being my homepage.
 
 <p align="center">
-  <img src="Assets/Images/homepageScreenshot" alt="Size Limit CLI" width="738">
+  <img src="Assets/Images/homepageScreenshot?raw=true" alt="Size Limit CLI" width="738">
 </p>
 
 # Technologies used
