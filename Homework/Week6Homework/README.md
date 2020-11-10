@@ -1,50 +1,50 @@
-<!-- PROJECT LOGO -->
-<br />
+# Portfolio Page
+
+This is weather dashboard that can provide the user with weather data depending on the inputed city. The data provided will give the user current weather as well as a 5 day forecast.
+
 <p align="center">
-  <a href="https://github.com/Cmarcano7/Weather-Dashboard">
-  </a>
-
-  <h3 align="center">Weather Dashboard</h3>
-
-  <p align="center">
-    A Weather dashboard build for someone who is looking to travel. The dashboard was built using JQuery, HTML, CSS, Ajax and some libraries. Users can look up a city and be presented with the current weather as well as a 5 day forecast. 
-  </p>
+  <img src="Assets/Images/weathPreview?raw=true" alt="Size Limit CLI" width="738">
 </p>
 
-<!-- TABLE OF CONTENTS -->
-## Table of Contents
+# Technologies used
 
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Usage](#usage)
-* [References](#references)
-* [For Cloud Animation See](#for-cloud-animation-see)
-<!-- ABOUT THE PROJECT -->
-## About The Project
+* **HTML5** 
+* **CSS**
+* **Bootstrap** 
+* **Javascript** 
+* **jQuery** 
+* **Ajax** 
 
-### Built With
+## Contact Me
 
-* [Javascript]
-* [JQuery]
-* [HTML]
-* [CSS]
-* [openweatherapp]
-* [moment.js]
-* [https://codepen.io/valentin/pen/fkdCG]
+* [Github](https://github.com/cmarcano7)
+* [linkedIn](https://www.linkedin.com/in/cmarcano7/)
+* [Link](https://cmarcano7.github.io/Homework/Week6Homework/)
 
-<!-- links to the libraries used -->
-# References
 
-[https://getbootstrap.com/](https://getbootstrap.com/) - Bootstrap library <br>
-[https://jquery.com/](https://jquery.com/) - jQuery library <br>
-[https://momentjs.com/](https://momentjs.com/) - Moment.js library <br>
+## How It Works
+
+1. Using the search bar users can look up any city within the United States and see the current and 5-day forecast below
+2. A history of cities a user searched for can be found below the search bar and use those buttons to search for that cities weather.
+
+## Tech Docs
+
+* [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
+* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [jQuery](https://api.jquery.com/)
+* [Ajax](https://api.jquery.com/category/ajax/)
+* [MomentJS](https://momentjs.com/docs/)
+* [Openweatherapp](https://openweathermap.org/api)
+
 
 # For Cloud Animation See
 
 [https://codepen.io/valentin/pen/fkdCG](https://codepen.io/valentin/pen/fkdCG) - Cloud Animation <br>
+
 <!-- CONTACT -->
 ## Contact
 
 email - tino93pr@hotmail.com
 
-Project Link: [https://github.com/Cmarcano7/Weather-Dashboard](https://github.com/Cmarcano7/Weather-Dashboard)
