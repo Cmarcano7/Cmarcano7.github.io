@@ -1,3 +1,11 @@
+:root {
+    font-size: 16px;
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+}
+
 html { height: 100%; }
 
 body{
@@ -5,9 +13,20 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+body::-webkit-scrollbar {
+    width: .25rem;
+}
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+body::-webkit-scrollbar-thumb{
+    background: #16a596;
+}
+/* body::-webkit-scrollbar-button:no-button */
 main{
     overflow: auto;
     padding-bottom: 50px;
+    margin-left: 4.5rem;
 }
 
 .cards {
@@ -77,4 +96,11 @@ ul {
 }
 .btn:hover {
     background-color: RoyalBlue;
+}
+
+.navbar {
+    width: 4.5rem;
+    height: 100vh;
+    position: fixed;
+    background: var(--bg-primary);
 }
