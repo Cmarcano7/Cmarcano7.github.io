@@ -25,7 +25,7 @@
 
     
     <!--Link to relative CSS styling sheet-->
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="./public/assets/css/style.css">
     
     <!--Link to fonts from Google-->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
@@ -35,163 +35,51 @@
 
 <!--Content of web application below-->
 <body>
-
-    <!-- Navbar containing link to contact me page and portfolio page -->
-    <!-- <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4 row">
-            <div class="col-sm">
-                <button class="btn" id="homePage">Home</button>
-            </div>  
-            <div class="col-sm">
-                <button class="btn" id="portPage">Portfolio</button>
-                <p class="text-muted">See some of my work.</p>
-            </div>
-            <div class="col-sm">
-                <button class="btn" id="contactPage">Contact Me</button>
-                <p class="text-muted">Let me know if you have any questions or let me know if you are looking to build a website</p>
-            </div>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="https://www.linkedin.com/in/cmarcano7/" style="font-size: 2rem;"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Cmarcano7" style="font-size: 2rem;"><i class="fab fa-github"></i></a>
+            <a href="https://docs.google.com/document/d/1SQInm8yXMIIEqw3XwEbXDenoQ4y5sRTdfc9G8deAXJ8/edit?usp=sharing" style="font-size: 2rem;"><i class="fab fa-google-drive"></i></a>
         </div>
+    </nav>
+    <div class="banner">  
+        <h1>Christian Marcano</h1>
     </div>
-        <nav class="navbar navbar-dark bg-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="far fa-address-card"></i>
-            </button>
-        </nav>
-    </div> -->
-    <!-- <nav>
-        <ul class="navbar-nav">
-            <li class="nar-item">
-                <a href="#" class="nav-link">
-                    <svg>
-                        
-                    </svg>
-                </a>
-            </li>
-        </ul>
-    </nav> -->
-    
-    <!-- JS generated content of page -->
-    <main>
-
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container intro">
-              <h1 class="display-4">Web Developer, Front and Back end.</h1>
-              <p class="lead">Hello, my name is Christian and I am a Full stack web developer who is currently studying at the MSU coding bootcamp.</p>
+    <div class="row">
+        <div class="card col " style="width: 18rem;">
+            <img src="./public/assets/images/Main_Preview.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Burger Logger</h5>
+              <p class="card-text">Application that uses CRUD as well as the Mysql database to provide users the ability to add and remove burgers they have eaten.</p>
+              <a href="https://github.com/Cmarcano7/Burger-Logger" class="btn btn-secondary">Github</a>
             </div>
-        </div>
-        <!-- Home Page -->
-        <section id="home">
-            <div class="container cards">
-                <div class="row center" id="titleHolder">
-                    <h3>Languages I know:</h3>
-                </div>  
-                <div class="row list">    
-                    <div class="col-sm-4">
-                        <h4>HTML <i class="fab fa-html5"></i></h4>
-                        <ul>
-                            <li>HTML</li>
-                            <li>HTML5</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-4">
-                        <h4>Javascript <i class="fab fa-js-square"></i></h4>  
-                        <ul>
-                            <li>JQuery</li>
-                            <li>Node.JS</li>
-                            <li>Ajax</li>
-                            <li>JSon</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-4">
-                        <h4>CSS <i class="fab fa-css3-alt"></i></h4>
-                        <ul>
-                            <li>Bootstrap</li>
-                            <li>Foundation</li>
-                        </ul>
-                    </div>
-                </div>
+          </div>
+          <div class="card col" style="width: 18rem;">
+            <img src="./public/assets/images/Main_Menu_Preview.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Employee Tracker</h5>
+              <p class="card-text">Cli application that can be used to track the employees in a company using node.js.</p>
+              <a href="https://github.com/Cmarcano7/Employee-Tracker" class="btn btn-secondary">Github</a>
             </div>
-        </section>
-        <!-- Portfolio Page -->
-        <section class="hide" id="portfolio">
-            <div class="card mb-3 cards center" style="max-width: 1200px;">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <img src="../Images/Brew_Hopper.PNG" class="card-img" alt="Preview image of Brew Hopper website">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Brew Hoopers</h5>
-                            <p class="card-text">This was a group project built for the MSU class. This was built as an application that users could use to to find breweries around them and find a route to use to go to them.</p>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="card col" style="width: 18rem;">
+            <img src="./public/assets/images/Notes_Preview.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Notes Taker</h5>
+              <p class="card-text">Web application with the capability of adding, removing, and updating notes using node js and local storage.</p>
+              <a href="https://github.com/Cmarcano7/Note-Taker" class="btn btn-secondary">Github</a>
             </div>
-            <div class="card mb-3 cards center" style="max-width: 1200px;">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <img src="../Images/Password_Generator.PNG" class="card-img" alt="Preview image of Password Generator website">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Password Generator</h5>
-                            <p class="card-text">This is an application built for the purpose of generating for users to be able to create a password depending on the criteria displayed on the page.</p>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="card col" style="width: 18rem;">
+            <img src="./public/assets/images/cliPreview.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Employee Template Engine</h5>
+              <p class="card-text">An application that builds an html file of the employees the user adds.</p>
+              <a href="https://github.com/Cmarcano7/Employee-Template-Engine" class="btn btn-secondary">Github</a>
             </div>
-            <div class="card mb-3 cards center" style="max-width: 1200px;">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <img src="../Images/Weather_Dashboard.PNG" class="card-img" alt="Preview image of Weather Dashboard website">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Weather Dashboard</h5>
-                            <p class="card-text">This is an application built for the purpose of users being able to plan out a vacation giving the using the locations current weather and a weather forecast.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="hide" id="contactMe">
-            <div class="container">
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control gray" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                    <div class="input-group-append">
-                        <span class="input-group-text gray" id="basic-addon2">Name</span>
-                    </div>
-                </div>
-
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control gray" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                    <div class="input-group-append">
-                        <span class="input-group-text gray" id="basic-addon2">Email</span>
-                    </div>
-                </div>
-
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text gray">Questions</span>
-                    </div>
-                    <textarea class="form-control gray" aria-label="With textarea"></textarea>
-                </div>
-                <div id="submit">
-                    <button type="button" class="btn btn-light">Submit</button>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <!-- Footer of the page -->
-    <footer class="navbar navbar-dark bg-dark footer">
-        <div class="row">
-            <div class="col text-center">
-                <button type="button" class="btn" id="linkedIn"><i class="fab fa-linkedin"></i></button>
-            </div>
-        </div>
-    </footer>
+          </div>
+    </div>
     
     <!-- Bootstrap JS cdn -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

@@ -1,18 +1,14 @@
 :root {
     font-size: 16px;
-    --text-primary: #b6b6b6;
-    --text-secondary: #ececec;
-    --bg-primary: #23232e;
-    --bg-secondary: #141418;
+    --text-primary: #f4f0db;
+    --bg-primary: black;
 }
-
 html { height: 100%; }
-
 body{
-    background-color: black;
     font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    font-size:.5rem;
 }
-
 body::-webkit-scrollbar {
     width: .25rem;
 }
@@ -20,9 +16,32 @@ body::-webkit-scrollbar-track {
     background: #1e1e24;
 }
 body::-webkit-scrollbar-thumb{
-    background: #16a596;
+    background:#f4f0db;
 }
-/* body::-webkit-scrollbar-button:no-button */
+.navbar{
+    background-color: #545454;
+}
+.banner{
+    width: 100%;
+    margin-top: 2px; 
+    text-align: center;
+    padding-top: 195px;
+    padding-bottom: 195px;
+    color: #545454;
+    background-image: url(../Images/moutain.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+}
+.row{
+    padding:60px;
+}
+.card{
+    margin: 10px;
+}
+.btn-primary{
+    color: #545454; 
+}
+/* 
 main{
     overflow: auto;
     padding-bottom: 50px;
@@ -57,13 +76,13 @@ main{
     color: #16a596;
 }
 
- .jumbotron{
+.jumbotron{
     background: url(../Images/chris-ried-ieic5Tq8YMk-unsplash.jpg) no-repeat center fixed;
     background-attachment: fixed;
- }
- .hide{
-     display: none;
- }
+}
+.hide{
+    display: none;
+}
 .center{
     margin: 0 auto;
     text-align: center;
@@ -103,4 +122,4 @@ ul {
     height: 100vh;
     position: fixed;
     background: var(--bg-primary);
-}
+} */
