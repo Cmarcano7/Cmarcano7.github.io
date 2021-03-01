@@ -1,3 +1,6 @@
+$("#linkedIn").click(() => {
+    
+}
 $("#portPage").click(() => {
     if($("#portfolio").attr('class') == 'hide') {
         $("#portfolio").removeClass();
