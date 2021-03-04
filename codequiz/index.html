@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Add extra code for responsiveness?-->
+    <title>JavaScript Quiz</title>
+
+    <!-- Add Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+<body>
+    <!-- Create containers using Bootstrap -->
+    <div class = "container"> 
+
+        <!-- Top row: "View High Scores" button (left), Timer (right) -->
+        <div class = "row">
+            <div class = "col-sm-6">
+                <a href="highscores.html">High Scores</a>
+            </div>
+            <div class = "col-sm-6"> <!-- FIX: columns stack in mobile view. 'xs' doesn't work. Use a media query? TRY CLEARFIX-->
+                <p class="timer text-right">Time Left: 0:30</p>
+            </div>
+        </div>
+
+        <div class = "row mt-5">
+            <div id="main-content" class = "col-md-12">
+                <h1>JavaScript Quiz</h1>
+                <br>
+                <h2>Instructions:</h2>
+                <p>Answer as many questions as possible before the timer runs out. Each wrong answer deducts 5 seconds from your time limit!</p>
+                <br>
+                <button id="begin" type="button" class="btn btn-primary">Begin</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script> 
+
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
